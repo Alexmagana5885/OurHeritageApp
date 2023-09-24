@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layoutA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/b_ground"
+    tools:openDrawer="start">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/head"
+        android:layout_height="70dp"
+        android:text="@string/experince_our_creativity"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:background="#FF2D2D40"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn_a"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/head"
+        android:text="@string/view_post" />
+
+    <Button
+        android:id="@+id/btn_ab"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="103dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:layout_below="@id/head"
+        android:text="post" />
+
+    <TextView
+        android:id="@+id/africa_b"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@id/btn_ab"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:text="Africa is a continent of remarkable diversity and immense potential. With its rich tapestry of cultures, breathtaking landscapes, and vibrant communities, Africa captivates the imagination. From the vast Sahara Desert to the lush rainforests of the Congo Basin, and from the bustling cities of Lagos and Nairobi to the remote villages dotting the savannas, Africa offers a kaleidoscope of experiences. Despite facing numerous challenges, including poverty and political instability, Africa is a continent that continuously strives for progress. With its youthful population, abundant natural resources, and growing industries, Africa is poised to shape its future and contribute to the global stage in meaningful and significant ways."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_facebook"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/facebook_icon" />
+
+
+        <ImageButton
+            android:id="@+id/btn_twitter"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/twitter_icon" />
+
+        <ImageButton
+            android:id="@+id/btn_instagram"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/instagram_icon" />
+
+        <ImageButton
+            android:id="@+id/btn_pinterest"
+            android:layout_width="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@android:color/transparent"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pinterest_icon" />
+        " />
+
+    </LinearLayout>
+
+</RelativeLayout>

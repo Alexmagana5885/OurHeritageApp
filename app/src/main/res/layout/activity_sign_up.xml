@@ -1,0 +1,86 @@
+<!-- activity_start.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b_ground"
+    android:padding="16dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:radius="16dp"
+        android:layout_centerInParent="true"
+        android:background="#FF2D2D40"
+        android:orientation="horizontal" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_marginTop="140dp"
+        android:layout_height="150dp"
+        android:background="@drawable/mainn"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+        <EditText
+            android:id="@+id/edit_textEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="48dp"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:textColorHint="@color/white" />
+
+
+
+        <EditText
+            android:id="@+id/edit_textPin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_below="@+id/edit_textEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:hint="PIN"
+            android:inputType="numberPassword"
+            android:textColorHint="@color/white" />
+
+        <Button
+           android:id="@+id/Sign_in"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_textPin"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="48dp"
+
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/button_Login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Sign_in"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</RelativeLayout>

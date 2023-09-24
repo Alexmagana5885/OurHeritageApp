@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Other views or widgets -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/head"
+        android:layout_height="70dp"
+        android:text="@string/experince_our_creativity"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:background="#FF2D2D40"
+        android:padding="16dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:padding="8dp" />
+
+
+</RelativeLayout>
