@@ -6,23 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@drawable/b_ground"
+    android:background="@drawable/b_ground1"
     tools:openDrawer="start">
 
 
-
-<!--    <TextView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:id="@+id/head"-->
-<!--        android:layout_height="200dp"-->
-<!--        android:text="@string/experince_our_creativity"-->
-<!--        android:textAlignment="center"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textStyle="bold|italic"-->
-<!--        android:bottomLeftRadius="8dp"-->
-<!--        android:background="#FF2D2D40"-->
-<!--        android:padding="16dp" />-->
 
     <TextView
         android:id="@+id/head"
@@ -32,7 +19,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/rounded_bottom_corner"
+        android:text="Computers are versatile electronic devices that have revolutionized nearly every aspect of modern life. They process and store information using binary code, allowing them to perform an array of tasks, from complex calculations and data analysis to multimedia entertainment and communication."
         android:gravity="center"
     android:textAlignment="center"
     android:textColor="@color/white"
@@ -53,123 +40,157 @@
             android:layout_marginTop="10dp"
             android:orientation="vertical" >
 
-
-            <TextView
+            <Button
                 android:id="@+id/africa"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="#FF2D2D40"
-                android:elevation="4dp"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:backgroundTint="#6A653A"
+                android:shadowColor="#D8B076"
+                android:layout_gravity="center"
+                android:layout_below="@id/edit_textPin"
+                android:layout_centerInParent="true"
                 android:gravity="center"
                 android:text="@string/africa"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:textStyle="italic">
-
-            </TextView>
-
-            <TextView
-                android:id="@+id/cars"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:textStyle="italic"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="#FF2D2D40"
-                android:elevation="4dp"
+                android:textColorHint="@color/white" >
+            </Button>
+
+            <Button
+                android:id="@+id/cars"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#6A653A"
+                android:shadowColor="#D8B076"
+                android:layout_below="@id/edit_textPin"
+                android:layout_centerInParent="true"
                 android:gravity="center"
                 android:text="Cars"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:textStyle="italic">
+                android:textStyle="italic"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/white" >
+            </Button>
 
-            </TextView>
-
-            <TextView
+            <Button
                 android:id="@+id/colors"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="16dp"
-                android:background="#FF2D2D40"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_below="@id/edit_textPin"
+                android:layout_centerInParent="true"
+                android:backgroundTint="#6A653A"
+                android:shadowColor="#D8B076"
+                android:gravity="center"
                 android:text="Colors"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="italic"
-                android:textColor="@color/white"
-                android:gravity="center"
-                android:elevation="4dp">
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/white" >
+            </Button>
 
-            </TextView>
-
-            <TextView
+            <Button
                 android:id="@+id/people"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="16dp"
-                android:background="#FF2D2D40"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#6A653A"
+                android:shadowColor="#D8B076"
+                android:layout_below="@id/edit_textPin"
+                android:layout_centerInParent="true"
+                android:gravity="center"
                 android:text="People"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="italic"
-                android:textColor="@color/white"
-                android:gravity="center"
-                android:elevation="4dp">
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/white" >
+            </Button>
 
-            </TextView>
-
-            <TextView
+            <Button
                 android:id="@+id/housing"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="16dp"
-                android:background="#FF2D2D40"
-                android:elevation="4dp"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:backgroundTint="#6A653A"
+                android:shadowColor="#D8B076"
+                android:layout_gravity="center"
+                android:layout_below="@id/edit_textPin"
+                android:layout_centerInParent="true"
                 android:gravity="center"
                 android:text="Housing"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:textStyle="italic">
+                android:textStyle="italic"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/white" >
+            </Button>
 
-            </TextView>
-
-            <TextView
+            <Button
                 android:id="@+id/towns"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="16dp"
-                android:background="#FF2D2D40"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#6A653A"
+                android:shadowColor="#D8B076"
+                android:layout_below="@id/edit_textPin"
+                android:layout_centerInParent="true"
+                android:gravity="center"
                 android:text="Towns"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="italic"
-                android:textColor="@color/white"
-                android:gravity="center"
-                android:elevation="4dp">
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/white" >
+            </Button>
 
-            </TextView>
-
-            <TextView
+            <Button
                 android:id="@+id/animals"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="16dp"
-                android:background="#FF2D2D40"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_below="@id/edit_textPin"
+                android:layout_centerInParent="true"
+                android:gravity="center"
                 android:text="Animals"
+                android:backgroundTint="#6A653A"
+                android:shadowColor="#D8B076"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="italic"
-                android:textColor="@color/white"
-                android:gravity="center"
-                android:elevation="4dp">
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/white" >
+            </Button>
 
-            </TextView>
+
 
         </LinearLayout>
     </ScrollView>
-
-
-
 
 
 
